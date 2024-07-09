@@ -9,20 +9,17 @@
 .bg-color-name-title {
 
     background-color: #676767;
-
 }
 
 .ui-menu-color-home {
 
     background-color: #e67e22;
-
 }
 
 
 .ui-menu-color-resume {
 
     background-color: #9b59b6;
-
 }
 
 
@@ -30,7 +27,6 @@
 .ui-menu-color-contact {
 
     background-color: #3498db;
-
 }
 
 
@@ -38,7 +34,6 @@
 .ui-menu-color-download {
 
     background-color: #525252;
-
 }
 
 /*--------------------------------------------Heading*/
@@ -48,13 +43,11 @@
 header {
 
     margin: 0;
-
 }
 
 
 
 .heading {
-
     margin-left: 50px;
 
 }
@@ -64,21 +57,13 @@ header {
 .logo {
 
     background: url("../images/rosie.jpg");
-
     background-position: center;
-
     background-repeat: no-repeat;
-
     background-size: cover;
-
     min-height: 360px;
-
     transition: all .5s ease-in-out;
-
     -moz-transition: all .5s ease-in-out;
-
     -webkit-transition: all .5s ease-in-out;
-
 }
 
 
@@ -86,15 +71,10 @@ header {
 .name {
 
     font-family: "Exo", sans-serif;
-
     font-weight: 100;
-
     font-size: 46px;
-
     margin-top: 50px;
-
     color: #fff;
-
 }
 
 
@@ -102,23 +82,16 @@ header {
 .title {
 
     font-family: "Roboto", sans-serif;
-
     font-weight: 200;
-
     font-size: 28px;
-
     margin-top: 20px;
-
     margin-bottom: 90px;
-
     color: #fff;
-
 }
 
 .list-inline-item:not(:last-child) {
 
     margin: 0;
-
 }
 
 
@@ -126,7 +99,6 @@ header {
 .menucontainer {
 
     font-size: 0;
-
 }
 
 
@@ -134,26 +106,20 @@ header {
 #nav li {
 
     font-size: 14px;
-
     padding: 0;
-
 }
 
 
 #nav {
 
     margin: 0;
-
 }
 
 .menuitem {
 
     height: 120px;
-
     text-align: center;
-
     padding: 0;
-
 }
 
 
@@ -161,13 +127,9 @@ header {
 .menuitem a {
 
     width: 100%;
-
     text-decoration: none;
-
     color: #fff;
-
     height: 120px;
-
 }
 
 
@@ -175,13 +137,9 @@ header {
 .menuitem a i {
 
     padding-top: 22px;
-
     display: block;
-
     color: #fafafa;
-
     font-size: 26px;
-
 }
 
 
@@ -189,21 +147,13 @@ header {
 .menuitem span {
 
     display: block;
-
     width: 100%;
-
     padding-top: 5px;
-
     text-align: center;
-
     text-transform: uppercase;
-
     font-size: 14px;
-
     font-weight: 300;
-
     letter-spacing: 2px;
-
 }
 
 /*--------------------------------------------Hover.css*/
@@ -211,7 +161,17 @@ header {
 .hvr-sweep-to-bottom:before {
 
     background: rgba(0, 0, 0, 0.2);
-
     height: 120px;
+}
 
+/* ----------------------------------------Footer */
+
+
+
+footer {
+
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
