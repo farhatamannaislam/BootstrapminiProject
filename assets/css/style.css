@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
 /*--------------------------------------------Colors*/
-
-
-
 .bg-color-name-title {
 
     background-color: #676767;
@@ -16,12 +11,10 @@
     background-color: #e67e22;
 }
 
-
 .ui-menu-color-resume {
 
     background-color: #9b59b6;
 }
-
 
 
 .ui-menu-color-contact {
@@ -30,15 +23,58 @@
 }
 
 
-
 .ui-menu-color-download {
 
     background-color: #525252;
 }
 
+
+/* ----------------------------------------Special paddings/margins/text */
+
+
+
+h1,
+
+h2,
+
+h3,
+
+h4 {
+
+    margin: 0;
+
+}
+
+
+
+.uppercase {
+
+    text-transform: uppercase;
+
+}
+
+
+
+.general-sub {
+
+    font-family: "Exo", sans-serif;
+
+    font-weight: 300;
+
+    color: #fafafa;
+
+}
+
+
+
+.inline-block {
+
+    display: inline-block;
+
+}
+
+
 /*--------------------------------------------Heading*/
-
-
 
 header {
 
@@ -46,12 +82,10 @@ header {
 }
 
 
-
 .heading {
     margin-left: 50px;
 
 }
-
 
 
 .logo {
@@ -67,7 +101,6 @@ header {
 }
 
 
-
 .name {
 
     font-family: "Exo", sans-serif;
@@ -76,7 +109,6 @@ header {
     margin-top: 50px;
     color: #fff;
 }
-
 
 
 .title {
@@ -95,12 +127,10 @@ header {
 }
 
 
-
 .menucontainer {
 
     font-size: 0;
 }
-
 
 
 #nav li {
@@ -115,13 +145,13 @@ header {
     margin: 0;
 }
 
+
 .menuitem {
 
     height: 120px;
     text-align: center;
     padding: 0;
 }
-
 
 
 .menuitem a {
@@ -133,7 +163,6 @@ header {
 }
 
 
-
 .menuitem a i {
 
     padding-top: 22px;
@@ -141,7 +170,6 @@ header {
     color: #fafafa;
     font-size: 26px;
 }
-
 
 
 .menuitem span {
@@ -167,11 +195,68 @@ header {
 /* ----------------------------------------Footer */
 
 
-
 footer {
 
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+
+.cv-pdf i {
+
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.cv-pdf i:hover {
+
+    color: #e84610;
+
+}
+
+
+.social-links {
+
+    padding-bottom: 15px;
+
+}
+
+
+.social-links li a i {
+
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+
+.social-links li a i:hover {
+
+    background: #e84610;
+}
+
+
+#footer-details {
+
+    padding: 20px;
 }
